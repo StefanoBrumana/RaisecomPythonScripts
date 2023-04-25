@@ -1,6 +1,8 @@
 # RaisecomPythonScripts
 Python scripts for Raisecom devices
 
+All scripts contains commments to maximize understanding and customization
+
 RaisecomMultiTelnet.py: interactive script to telnet multiple Raisecom devices ( listed in ip.txt file that must be manually created in the same folder of this script ) all with same username, password and (optional) enable password, enter commands ( listed in the commands.txt file saved in the same folder of this script ) and save the entire log into a .txt file whose name is made by IP address of target device + date/time
 
 RaisecomMultiSsh.py: interactive script to ssh multiple Raisecom devices ( listed in ip.txt file that must be manually created in the same folder of this script ) all with same username, password and (optional) enable password, enter commands ( listed in commands.txt file that must be manually created in the same folder of this script ) and save the entire log into a .txt file whose name is made by IP address of target device + date/time
